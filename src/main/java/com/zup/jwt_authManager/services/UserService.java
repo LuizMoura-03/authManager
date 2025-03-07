@@ -6,10 +6,8 @@ import com.zup.jwt_authManager.models.UserModel;
 import com.zup.jwt_authManager.repositories.RoleRepository;
 import com.zup.jwt_authManager.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
-import org.apache.catalina.User;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-
 import java.util.Set;
 import java.util.stream.Collectors;
 
